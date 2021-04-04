@@ -4,7 +4,8 @@ Hi there! Thanks for checking out this project! 👋
 
 This is a solution for a **Frontend Mentor challenge** that consists on building a **landing page** that looks as close to the given design as possible. The goal is to improve my web layout skills by building a realistic project.
 
-## Table of contents
+
+## 1. Table of contents ✒️
 
   - [Overview](#overview)
     - [The challenge](#the-challenge)
@@ -15,9 +16,8 @@ This is a solution for a **Frontend Mentor challenge** that consists on building
     - [Useful resources](#useful-resources)
   - [Author](#Author)
 
----
 
-## Overview
+## 2. Overview 🎯
 
 ### The challenge
 
@@ -51,9 +51,8 @@ npm start
 - Live Site URL: coming soon
 - Solution URL: coming soon
 
----
 
-## My process
+## 3. My process 🧩
 
 ### Built with
 
@@ -70,12 +69,14 @@ npm start
 
 - Coming soon..
 
----
 
-## Author
+## 4. Author 🙋🏻
 
 - LinkedIn: [leire-ordeñana-madina](https://www.linkedin.com/in/leire-orde%C3%B1ana-madina/)
 - Twitter: [@risingdana](https://twitter.com/risingdana)
+- Email: leireomadina@gmail.com
+- Behance: [leireomadina](https://www.behance.net/leireomadina)
+- Codepen: [leireomadina](https://codepen.io/leireomadina)
 - Frontend Mentor: [@leireomadina](https://www.frontendmentor.io/profile/leireomadina)
 
 Thank you for your time 😊 
