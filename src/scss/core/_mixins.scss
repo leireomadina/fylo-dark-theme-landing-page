@@ -1,0 +1,17 @@
+@mixin tablet() {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop() {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin widescreen() {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}

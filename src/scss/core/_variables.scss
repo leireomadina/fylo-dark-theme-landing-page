@@ -1,0 +1,22 @@
+// TYPOGRAPHY
+$font-family: 'Open Sans', sans-serif;
+$font-family-secondary: 'Raleway', sans-serif; // headings, cta, header nav
+$font-color: hsl(0, 0%, 100%);
+$font-size: 14px;
+$line-height: 1.5;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+// COLORS
+// background colors
+$color-bg: hsl(218, 28%, 13%); // main bg
+$color-bg-secondary: hsl(217, 28%, 15%); // intro and email bg
+$color-bg-tertiary: hsl(216, 53%, 9%); // footer bg
+$color-bg-quaternary: hsl(219, 30%, 18%); // testimonials bg
+// neutral colors
+$color-light: hsl(0, 0%, 100%);
+// accent colors
+$color-cta: hsl(176, 68%, 64%);
+$color-cta-gradient: hsl(198, 60%, 50%);
+$color-error: hsl(0, 100%, 63%);
+
