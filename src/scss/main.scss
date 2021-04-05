@@ -1,23 +1,25 @@
 // Core
 @import 'core/mixins';
+@import 'core/normalize';
 @import 'core/reset';
 @import 'core/variables';
 
 // Components
-@import 'components/buttons';
+@import 'components/button';
 @import 'components/card';
-@import 'components/forms';
-@import 'components/hero';
-@import 'components/icons';
-@import 'components/images';
-@import 'components/text-inputs';
-@import 'components/links';
+@import 'components/form';
+@import 'components/iconography';
+@import 'components/image';
+@import 'components/text-input';
+@import 'components/link';
 @import 'components/typography';
 
 // Layout
+@import 'layout/hero';
 @import 'layout/page';
 @import 'layout/header';
 @import 'layout/footer';
+@import 'layout/main';
 
 // Pages
 @import 'pages/index';
