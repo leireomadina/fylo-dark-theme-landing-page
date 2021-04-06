@@ -1,0 +1,35 @@
+.hero {
+  &__content {
+    width: 100%;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  &__img-container {
+    max-width: 700px;
+  }
+
+  &__text-container{
+    width: 100%;
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+  }
+
+  &__title {
+    font-family: $font-family-secondary;
+    font-size: $font-size-titles;
+    font-weight: $font-weight-bold;
+    color: $color-light;
+  }
+
+  &__description {
+    margin-top: 1rem;
+    color: $color-grey;
+  }
+
+  &__link {
+    margin-top: 1.5rem;
+    color: $color-light;
+  }
+}

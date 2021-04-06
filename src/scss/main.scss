@@ -15,11 +15,11 @@
 @import 'components/typography';
 
 // Layout
-@import 'layout/hero';
-@import 'layout/page';
-@import 'layout/header';
 @import 'layout/footer';
+@import 'layout/header';
 @import 'layout/main';
+@import 'layout/main-hero';
+@import 'layout/page';
 
 // Pages
 @import 'pages/index';

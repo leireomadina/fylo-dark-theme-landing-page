@@ -1,5 +1,4 @@
 .header {
-  // margin-bottom: 3rem;
   position: sticky;
   top: 0;
   left: 0;
@@ -7,14 +6,20 @@
   z-index: 1;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  margin-bottom: 2.3rem;
   font-family: $font-family-secondary;
 
-  &__container {
+  &__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
+  }
+
+  &__title {
+    margin: 0;
+    line-height: 0;
   }
 
   &__icon {
@@ -23,7 +28,7 @@
   }
 }
 
-.header-nav {
+.header-menu {
   &__list {
     display: flex;
     justify-content: space-between;
