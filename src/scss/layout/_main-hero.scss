@@ -1,9 +1,9 @@
 .hero {
   &__content {
     width: 100%;
-    text-align: center;
     max-width: 700px;
     margin: 0 auto;
+    text-align: center;  
   }
 
   &__img-container {
@@ -21,15 +21,17 @@
     font-size: $font-size-titles;
     font-weight: $font-weight-bold;
     color: $color-light;
+    line-height: $line-height-titles;
   }
 
   &__description {
     margin-top: 1rem;
     color: $color-grey;
+    line-height: $line-height;
   }
 
   &__link {
-    margin-top: 1.5rem;
+    margin-top: 1.8rem;
     color: $color-light;
   }
 }

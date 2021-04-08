@@ -1,0 +1,53 @@
+.features {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+
+  &__content {
+    width: 100%;
+    max-width: 840px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+    @media all and (min-width: 800px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      row-gap: 5rem;
+      column-gap: 4rem;
+    }
+    @media all and (min-width: 1200px) {
+      column-gap: 8rem;
+    }
+  }
+
+}
+
+.feature {
+  width: 100%;
+
+  &__icon {
+    width: 70px;
+    height: auto;
+  }
+
+  &__title {
+    margin-top: 1.5rem;
+    font-family: $font-family-secondary;
+    font-size: 18px;
+    font-weight: $font-weight-bold;
+    color: $color-light;
+    line-height: $line-height-titles;
+  }
+
+  &__description {
+    margin-top: 0.7rem;
+    color: $color-grey;
+    line-height: $line-height;
+  }
+}
