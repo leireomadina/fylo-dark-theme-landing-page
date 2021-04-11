@@ -1,0 +1,35 @@
+.testimonials {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+
+  &__content {
+    width: 100%;
+    max-width: 1150px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &__img-container--relative {
+    position: relative;
+    left: 7px;
+    max-width: 25px;
+    margin: 0;
+    @media all and (min-width: 768px) {
+      max-width: 50px;
+      left: -10px;
+      bottom: -10px;
+      z-index: -1;
+    }
+  }
+  
+  &__flex-container {
+    display: flex;
+    flex-direction: column;
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+}
