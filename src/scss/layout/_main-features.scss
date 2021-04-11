@@ -10,11 +10,11 @@
     text-align: center;
   }
 
-  &__grid {
+  &__grid-container {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 5rem;
-    @media all and (min-width: 800px) {
+    @media all and (min-width: 768px) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr);

@@ -9,6 +9,9 @@
   margin-bottom: 2.3rem;
   font-family: $font-family-secondary;
   line-height: $line-height;
+  @media all and (min-width: 1200px) {
+    padding-top: 3rem;
+  }
 
   &__content {
     display: flex;
@@ -16,6 +19,10 @@
     align-items: center;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
+    @media all and (min-width: 1200px) {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
   }
 
   &__title {

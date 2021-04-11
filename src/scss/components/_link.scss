@@ -1,9 +1,11 @@
 .link {
+  display: inline-block;
   color: inherit;
   text-decoration: none;
-
-  &:hover {
-    font-weight: $font-weight-bold;
+    &:hover {
+      font-weight: $font-weight-bold;
+    }
   }
 
- }
+ 
+

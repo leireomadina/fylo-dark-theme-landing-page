@@ -22,6 +22,9 @@
     font-weight: $font-weight-bold;
     color: $color-light;
     line-height: $line-height-titles;
+    @media all and (min-width: 1200px) {
+      font-size: 35px;
+    }
   }
 
   &__description {
