@@ -5,4 +5,8 @@
   padding-bottom: 16px;
   background: linear-gradient(to right, $color-cta, $color-cta-gradient);
   border-radius: 25px;
+  color: $color-light;
+  border: transparent;
+  cursor: pointer;
+  font-weight: bold;
 }

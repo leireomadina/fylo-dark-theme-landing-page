@@ -1,0 +1,20 @@
+<form action="#" method="GET" class="form">
+  <fieldset>
+    <div class="form__flex-container">
+      <div>
+        <label for="email"></label>
+        <include
+          src="./text-input.html"
+          @@type="email"
+          textInputClass="form__text-input"
+          textInputClass="form__input"
+        ></include>
+      </div>
+      <include
+        src="./button.html"
+        btnClass="form__btn"
+        text="Get Started For Free"
+      ></include>
+    </div>
+  </fieldset>
+</form>

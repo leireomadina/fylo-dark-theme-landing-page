@@ -1,0 +1,13 @@
+.form {
+  &__content {
+
+  }
+
+  &__flex-container {
+    display: flex;
+    flex-direction: column;
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+}
