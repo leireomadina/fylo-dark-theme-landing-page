@@ -1,0 +1,36 @@
+.registration {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+
+  &__content {
+    width: 100%;
+    max-width: 840px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1.8rem 1.2rem;
+    background-color: $color-bg-secondary;
+    text-align: center;
+  }
+
+  &__title {
+    font-family: $font-family-secondary;
+    font-size: 18px;
+    font-weight: $font-weight-bold;
+    color: $color-light;
+    line-height: $line-height-titles;
+    @media all and (min-width: 1200px) {
+      font-size: 24px;
+    }
+  }
+
+  &__text {
+    max-width: 620px;
+    margin-top: 0.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    color: $color-grey;
+    line-height: $line-height;
+    font-size: 14px;
+    text-align: center;
+  }
+}

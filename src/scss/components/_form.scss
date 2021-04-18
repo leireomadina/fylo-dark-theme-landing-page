@@ -1,13 +1,48 @@
 .form {
-  &__content {
+  margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
 
+  &__content {
+    width: 100%;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
   }
 
   &__flex-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     @media all and (min-width: 768px) {
       flex-direction: row;
+    }
+  }
+
+  &__child--1 {
+    @media all and (min-width: 768px) {
+      flex: 0.7;
+    }  
+  }
+
+  &__child--2 {
+    @media all and (min-width: 768px) {
+      flex: 0.3;
+    }
+  }
+
+  &__text-input::placeholder {
+    padding-left: 2rem;
+    font-size: 12px;
+  }
+
+  &__btn {
+    width: 100%;
+    margin-top: 2rem;
+    @media all and (min-width: 768px) {
+      margin-top: 0;
+      margin-left: 2rem;
     }
   }
 }

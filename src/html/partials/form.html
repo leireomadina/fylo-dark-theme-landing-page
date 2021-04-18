@@ -1,20 +1,21 @@
 <form action="#" method="GET" class="form">
-  <fieldset>
+  <fieldset class="form__content">
     <div class="form__flex-container">
-      <div>
+      <div class="form__child--1">
         <label for="email"></label>
         <include
           src="./text-input.html"
           @@type="email"
           textInputClass="form__text-input"
-          textInputClass="form__input"
         ></include>
       </div>
-      <include
-        src="./button.html"
-        btnClass="form__btn"
-        text="Get Started For Free"
-      ></include>
+      <div class="form__child--2">
+        <include
+          src="./button.html"
+          btnClass="form__btn"
+          text="Get Started For Free"
+        ></include>
+      </div>
     </div>
   </fieldset>
 </form>
