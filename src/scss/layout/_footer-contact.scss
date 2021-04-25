@@ -1,0 +1,48 @@
+.contact-list {
+  margin-top: 2.5rem;
+  @include tablet {
+    display: flex;
+  }
+
+  &__flex-inner {
+    @include tablet {
+      margin-left: 4rem;
+    }
+    &:first-child {
+      @include tablet {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  &__item {
+    margin-top: 1rem;
+    @include tablet {
+      margin-top: 0;
+    }
+    &:last-child {
+      @include tablet {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  &__flex-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  &__image {
+    display: inline-block;
+    text-align: left;
+    height: auto;
+    width: 20px;
+    margin-right: 1.2rem;
+  }
+
+  &__text {
+    max-width: 300px;
+    line-height: $line-height;
+  }
+}

@@ -1,11 +1,10 @@
 .text-input {
   display: inline-block;
   width: 100%;
-  min-width: 240px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  min-width: 200px;
+  padding: 16px 25px;
   background: $color-light;
   border-radius: 25px;
-  color: $color-grey;
+  color: $color-dark;
   border: transparent;
 }

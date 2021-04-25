@@ -14,14 +14,14 @@
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 5rem;
-    @media all and (min-width: 768px) {
+    @include tablet {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr);
       row-gap: 5rem;
       column-gap: 4rem;
     }
-    @media all and (min-width: 1200px) {
+    @include desktop {
       column-gap: 8rem;
     }
   }

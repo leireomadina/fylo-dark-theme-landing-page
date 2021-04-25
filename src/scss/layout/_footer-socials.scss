@@ -1,0 +1,45 @@
+.footer-menu--flex {
+  margin-top: 4rem;
+  @include tablet {
+    margin-top: 0;
+    margin-left: 11rem;
+  }
+  @include desktop {
+    margin-top: 0;
+    margin-left: 4rem;
+   }
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__list-item:not(:first-child) {
+    margin-left: 1rem;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid $color-light;
+    border-radius: 50%;
+    text-decoration: none;
+    &:hover {
+      border: 1px solid $color-cta;
+      transition: all 0.3s ease-out;
+    }
+  }
+
+  // Font Awesome icon styles
+  &__icon {
+    color: $color-light;
+    font-size: 14px;
+    &:hover {
+      color: $color-cta;
+      transition: all 0.3s ease-out;
+    }
+  }
+}

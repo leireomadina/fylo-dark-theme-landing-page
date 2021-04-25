@@ -12,7 +12,7 @@
   &__flex-container {
     display: flex;
     flex-direction: column;
-    @media all and (min-width: 768px) {
+    @include tablet {
       flex-direction: row;
       justify-content: center;
       align-items: center;
@@ -27,7 +27,7 @@
     width: 100%;
     margin-top: 1.8rem;
     margin-bottom: 1.8rem;
-    @media all and (min-width: 768px) {
+    @include tablet {
       max-width: 500px;
       margin-left: 2.5rem;
     }
@@ -39,7 +39,7 @@
     font-weight: $font-weight-bold;
     color: $color-light;
     line-height: $line-height-titles;
-    @media all and (min-width: 1200px) {
+    @include desktop {
       font-size: 35px;
       max-width: 300px;
     }
@@ -60,14 +60,21 @@
     display: inline-block;
     text-decoration: none;
     &:hover {
-      font-weight: $font-weight-bold;
+      color: $color-light;
+      border-bottom: 1px solid $color-light;
+      transition: all 0.3s ease-out;
     }
   }
 
   &__icon {
+    display: inline-block;
     height: 16px;
-    width: auto;
+    min-width: 0;
     padding-left: 5px;
     transform: translateY(4px);
+    &:hover {
+      color: $color-light;
+      transition: all 0.3s ease-out;
+    }
   }
 }

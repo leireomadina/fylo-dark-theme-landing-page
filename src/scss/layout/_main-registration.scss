@@ -24,7 +24,7 @@
     font-weight: $font-weight-bold;
     color: $color-light;
     line-height: $line-height-titles;
-    @media all and (min-width: 1200px) {
+    @include desktop {
       font-size: $font-size-titles;
     }
   }

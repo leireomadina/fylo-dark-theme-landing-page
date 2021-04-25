@@ -1,0 +1,29 @@
+.footer-menu {
+  margin-top: 5rem;
+  @include tablet {
+    margin-top: 0;
+  }
+  
+  &:nth-of-type(2) {
+    margin-top: 2.5rem;
+    @include tablet {
+      margin-left: 4rem;
+      margin-top: 0;
+    }
+    @include desktop {
+      margin-top: 0;
+      margin-right: 2rem;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+  }
+
+  &__list-item:not(:first-child) {
+    margin-top: 1rem;
+  }
+}

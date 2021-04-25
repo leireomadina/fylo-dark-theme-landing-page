@@ -3,7 +3,7 @@
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
-    text-align: center;  
+    text-align: center;
   }
 
   &__img-container {
@@ -23,7 +23,7 @@
     font-weight: $font-weight-bold;
     color: $color-light;
     line-height: $line-height-titles;
-    @media all and (min-width: 1200px) {
+    @include desktop {
       font-size: 35px;
     }
   }
@@ -37,5 +37,6 @@
   &__link {
     margin-top: 1.8rem;
     color: $color-light;
+    text-decoration: none;
   }
 }
