@@ -1,8 +1,134 @@
 .footer {
-  // position: fixed;
-  // bottom: 0;
-  // left: 0;
   width: 100%;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  background-color: $color-bg-tertiary;
+  &__content {
+    max-width: 1150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 16rem 2rem 4rem 2rem;
+  }
+
+  &__icon {
+    min-width: 150px;
+  }
+
+  &__flex-outer {
+    @media all and (min-width: 768px) {
+      // background-color: blue;
+      display: flex;
+      // TODO
+      // flex-direction: column;
+      justify-content: space-between;
+    }
+     // TODO
+    @media all and (min-width: 1200px) {
+      // flex-direction: row;
+    }
+  }
+
+  &__flex-inner {
+    @media all and (min-width: 768px) {
+      // background-color: purple;
+      margin-top: 2.5rem;
+      display: flex;
+    }
+  }
+}
+
+.contact-list {
+  margin-top: 2.5rem;
+  @media all and (min-width: 768px) {
+    display: flex;
+  }
+
+  &__flex-inner {
+    @media all and (min-width: 768px) {
+     margin-left: 4rem;;
+    }
+  }
+
+  &__item:not(:first-child) {
+    margin-top: 1rem;
+  }
+
+  &__flex-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  &__image {
+    display: inline-block;
+    text-align: left;
+    height: auto;
+    width: 20px;
+    margin-right: 1.2rem;
+  }
+
+  &__text {
+    max-width: 300px;
+    line-height: $line-height;
+  }
+}
+
+.footer-menu {
+  margin-top: 5rem;
+  @media all and (min-width: 768px) {
+    margin-top: 0;
+  }
+  &:nth-of-type(2) {
+    margin-top: 2.5rem;
+    @media all and (min-width: 768px) {
+      margin-left: 4rem;
+      margin-top: 0;
+    }
+    @media all and (min-width: 1200px) {
+      margin-top: 0;
+      margin-right: 2rem;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+  }
+
+  &__list-item:not(:first-child) {
+    margin-top: 1rem;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid $color-light;
+    border-radius: 50%;
+  }
+
+  // Font Awesome icon styles
+  &__icon {
+    color: $color-light;
+    font-size: 14px;
+  }
+}
+
+.footer-menu--flex {
+  margin-top: 4rem;
+  @media all and (min-width: 1200px) {
+    padding-top: 2.5rem;
+    margin-top: 0;
+   }
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__list-item:not(:first-child) {
+    margin-left: 1rem;
+  }
 }

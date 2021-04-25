@@ -1,5 +1,58 @@
 <footer class="footer">
-  <small>
-    &copy; 2021 All rights reserved.
-  </small>
+  <div class="footer__content">
+    <include
+      src="./components/logo.html"
+      linkClass="footer__link"
+      iconClass="footer__icon"
+    ></include>
+
+    <div class="footer__flex-outer">
+
+      <include
+      src="./footer-contact.html"
+      ></include>
+      <!-- <div> -->
+        <div class="footer__flex-inner">
+          <nav class="footer-menu" role="navigation">
+            <ul class="footer-menu__list" role="list">
+              <li class="footer-menu__list-item" role="list-item">
+                <include src="./components/link.html" url="#" text="About us">
+                </include>
+              </li>
+              <li class="footer-menu__list-item" role="list-item">
+                <include src="./components/link.html" url="#" text="Jobs"> </include>
+              </li>
+              <li class="footer-menu__list-item" role="list-item">
+                <include src="./components/link.html" url="#" text="Press"> </include>
+              </li>
+              <li class="footer-menu__list-item" role="list-item">
+                <include src="./components/link.html" url="#" text="Blog"> </include>
+              </li>
+            </ul>
+          </nav>
+
+          <nav class="footer-menu" role="navigation">
+            <ul class="footer-menu__list" role="list">
+              <li class="footer-menu__list-item" role="list-item">
+                <include src="./components/link.html" url="#" text="Contact us">
+                </include>
+              </li>
+              <li class="footer-menu__list-item" role="list-item">
+                <include src="./components/link.html" url="#" text="Terms"> </include>
+              </li>
+              <li class="footer-menu__list-item" role="list-item">
+                <include src="./components/link.html" url="#" text="Privacy">
+                </include>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        
+        <include
+        src="./footer-socials.html"
+      ></include>
+      </div>
+    <!-- </div> -->
+
+  </div>
 </footer>

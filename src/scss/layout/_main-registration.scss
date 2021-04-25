@@ -1,15 +1,21 @@
 .registration {
-  margin-top: 8rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
+  position: relative;
 
   &__content {
     width: 100%;
     max-width: 840px;
+    padding-top: 8rem;
     margin-right: auto;
     margin-left: auto;
     padding: 1.8rem 1.2rem;
     background-color: $color-bg-secondary;
     text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
   &__title {
@@ -19,7 +25,7 @@
     color: $color-light;
     line-height: $line-height-titles;
     @media all and (min-width: 1200px) {
-      font-size: 24px;
+      font-size: $font-size-titles;
     }
   }
 
@@ -30,7 +36,7 @@
     margin-left: auto;
     color: $color-grey;
     line-height: $line-height;
-    font-size: 14px;
+    font-size: $font-size;
     text-align: center;
   }
 }
